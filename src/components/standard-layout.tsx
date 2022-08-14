@@ -202,7 +202,11 @@ const UserDropdown: React.VoidFunctionComponent<
         />
       ) : null}
       {!user.isGuest ? (
-        <DropdownItem href="/profile" icon={User} label="Your profile" />
+        <DropdownItem
+          href="/profile"
+          icon={User}
+          label={t("app:yourProfile")}
+        />
       ) : null}
       {user.isGuest ? (
         <DropdownItem icon={Login} label="Login" onClick={openLoginModal} />

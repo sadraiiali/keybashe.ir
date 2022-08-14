@@ -44,7 +44,7 @@ export const Profile: React.VoidFunctionComponent = () => {
         </title>
       </Head>
       <div className="mb-4 flex items-center px-4">
-        <div className="mr-4 inline-flex h-14 w-14 items-center justify-center rounded-lg bg-primary-50">
+        <div className="inline-flex h-14 w-14 items-center justify-center rounded-lg bg-primary-50 me-4">
           <User className="h-7 text-primary-500" />
         </div>
         <div>
@@ -80,14 +80,14 @@ export const Profile: React.VoidFunctionComponent = () => {
                     <div className="sm:table-cell sm:p-4">
                       <div>
                         <div className="flex">
-                          <Calendar className="mr-2 mt-[1px] h-5 text-primary-500" />
+                          <Calendar className="mt-[1px] h-5 text-primary-500 me-2" />
                           <Link href={`/admin/${poll.adminUrlId}`}>
                             <a className="text-slate-700 hover:text-primary-500 hover:no-underline">
                               <div>{poll.title}</div>
                             </a>
                           </Link>
                         </div>
-                        <div className="ml-7 text-sm text-slate-500">
+                        <div className="text-sm text-slate-500 ms-7">
                           {dayjs(poll.createdAt).fromNow()}
                         </div>
                       </div>

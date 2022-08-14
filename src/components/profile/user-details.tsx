@@ -96,7 +96,7 @@ export const UserDetails: React.VoidFunctionComponent<UserDetailsProps> = ({
           <div className="w-2/3">
             <TextInput
               id="random-8904"
-              className="input w-full"
+              className="input w-full text-left"
               placeholder="jessie.jackson@example.com"
               disabled={true}
               {...register("email", { validate: validEmail })}

@@ -43,7 +43,7 @@ const LoginForm: React.VoidFunctionComponent = () => {
               <input
                 autoFocus={true}
                 readOnly={formState.isSubmitting}
-                className={clsx("input w-full", {
+                className={clsx("input w-full text-left", {
                   "input-error": formState.errors.email,
                 })}
                 placeholder="john.doe@email.com"

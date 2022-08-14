@@ -59,7 +59,7 @@
   "loginMagicLinkSent": "یک لینک جادویی به این آدرس ایمیل فرستاده شد:",
   "loginSendMagicLink": "برایم لینک جادویی بفرست",
   "loginViaMagicLink": "ورود با لینک جادویی",
-  "loginViaMagicLinkDescription": "ما به شما یک لینک جادویی جهت ورود به سایت خواهیم فرستاد..",
+  "loginViaMagicLinkDescription": "ما به ایمیل شما یک لینک جادویی‌ جهت ورود به سایت خواهیم فرستاد..",
   "loginWithValidEmail": "لطفا یک آدرس ایمیل معتبر وارد کنید",
   "logout": "خروج",
   "manage": "مدیریت",
@@ -127,5 +127,6 @@
   "you": "شما",
   "yourDetails": "اطلاعات شما",
   "yourName": "نام شما…",
-  "yourPolls": "نظرسنجی‌های شما"
+  "yourPolls": "نظرسنجی‌های شما",
+  "yourProfile": "پروفایل شما"
 }
