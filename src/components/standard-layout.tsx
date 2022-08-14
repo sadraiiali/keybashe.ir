@@ -76,7 +76,7 @@ const MobileNavigation: React.VoidFunctionComponent<{
                     opacity: 0,
                   }}
                   data-testid="user"
-                  className="group inline-flex w-full items-center rounded-lg px-2 py-1 text-left transition-colors space-s-2 hover:bg-slate-500/10 active:bg-slate-500/20"
+                  className="group inline-flex w-full items-center rounded-lg px-2 py-1 transition-colors text-start space-s-2 hover:bg-slate-500/10 active:bg-slate-500/20"
                 >
                   <div className="relative shrink-0">
                     <UserCircle className="w-5 opacity-75 group-hover:text-primary-500 group-hover:opacity-100" />
@@ -262,7 +262,7 @@ const StandardLayout: React.VoidFunctionComponent<{
                 <Link href="/new">
                   <a className="group mb-1 flex items-center whitespace-nowrap rounded-md px-3 py-1 font-medium text-slate-600 transition-colors space-s-3 hover:bg-slate-500/10 hover:text-slate-600 hover:no-underline active:bg-slate-500/20">
                     <Pencil className="h-5 opacity-75 group-hover:text-primary-500 group-hover:opacity-100" />
-                    <span className="grow text-left">{t("app:newPoll")}</span>
+                    <span className="grow text-start">{t("app:newPoll")}</span>
                   </a>
                 </Link>
                 <a
@@ -272,14 +272,14 @@ const StandardLayout: React.VoidFunctionComponent<{
                   rel="noreferrer"
                 >
                   <Support className="h-5 opacity-75 group-hover:text-primary-500 group-hover:opacity-100" />
-                  <span className="grow text-left">{t("common:support")}</span>
+                  <span className="grow text-start">{t("common:support")}</span>
                 </a>
                 <Popover
                   placement="right-start"
                   trigger={
                     <button className="group flex w-full items-center whitespace-nowrap rounded-md px-3 py-1 font-medium text-slate-600 transition-colors space-s-3 hover:bg-slate-500/10 hover:text-slate-600 hover:no-underline active:bg-slate-500/20">
                       <Adjustments className="h-5 opacity-75 group-hover:text-primary-500 group-hover:opacity-100" />
-                      <span className="grow text-left">
+                      <span className="grow text-start">
                         {t("app:preferences")}
                       </span>
                       <DotsVertical className="h-4 text-slate-500 opacity-0 transition-opacity group-hover:opacity-100" />
@@ -294,7 +294,7 @@ const StandardLayout: React.VoidFunctionComponent<{
                     className="group flex w-full items-center whitespace-nowrap rounded-md px-3 py-1 font-medium text-slate-600 transition-colors space-s-3 hover:bg-slate-500/10 hover:text-slate-600 hover:no-underline active:bg-slate-500/20"
                   >
                     <Login className="h-5 opacity-75 group-hover:text-primary-500 group-hover:opacity-100" />
-                    <span className="grow text-left">{t("app:login")}</span>
+                    <span className="grow text-start">{t("app:login")}</span>
                   </button>
                 )}
               </div>
@@ -313,7 +313,7 @@ const StandardLayout: React.VoidFunctionComponent<{
                           opacity: 0,
                           transition: { duration: 0.2 },
                         }}
-                        className="group w-full rounded-lg p-2 px-3 text-left text-inherit transition-colors hover:bg-slate-500/10 active:bg-slate-500/20"
+                        className="group w-full rounded-lg p-2 px-3 text-inherit transition-colors text-start hover:bg-slate-500/10 active:bg-slate-500/20"
                       >
                         <div className="flex w-full items-center space-s-3">
                           <div className="relative">
