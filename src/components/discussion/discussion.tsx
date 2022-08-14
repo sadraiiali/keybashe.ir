@@ -121,7 +121,7 @@ const Discussion: React.VoidFunctionComponent = () => {
                       isYou={session.ownsObject(comment)}
                     />
                     <div className="mb-1">
-                      <span className="mr-1 text-slate-400">&bull;</span>
+                      <span className="text-slate-400 me-1">&bull;</span>
                       <span className="text-sm text-slate-500">
                         {dayjs(new Date(comment.createdAt)).fromNow()}
                       </span>
