@@ -14,7 +14,7 @@ const Hero: React.VoidFunctionComponent = () => {
 
   return (
     <div className="mx-auto max-w-7xl items-end p-8 lg:flex lg:justify-between">
-      <div className="my-8 text-center lg:text-left">
+      <div className="my-8 text-center lg:text-start	">
         <h1 className="text-4xl font-bold sm:text-5xl">
           <Trans
             t={t}
