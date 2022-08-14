@@ -22,11 +22,11 @@ const NameInput: React.ForwardRefRenderFunction<
     <div className="relative flex items-center">
       <UserAvatar
         name={value ?? defaultValue ?? ""}
-        className="absolute left-2"
+        className="absolute start-2"
       />
       <input
         ref={ref}
-        className={clsx("input pl-[35px]", className)}
+        className={clsx("input ps-[35px]", className)}
         placeholder={t("yourName")}
         value={value}
         {...forwardProps}

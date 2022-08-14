@@ -26,7 +26,7 @@ const Score = React.forwardRef<
       ref={ref}
       className="relative inline-flex items-center text-sm font-bold"
     >
-      <Icon className="mr-1 inline-block h-4 text-slate-300 transition-opacity" />
+      <Icon className="inline-block h-4 text-slate-300 transition-opacity me-1" />
       <span className="relative inline-block text-slate-500">
         <AnimatePresence initial={false}>
           <motion.span

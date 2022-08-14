@@ -69,7 +69,7 @@ const Sharing: React.VoidFunctionComponent<SharingProps> = ({
               setDidCopy(false);
             }, 1000);
           }}
-          className="md:absolute md:top-1/2 md:right-3 md:-translate-y-1/2"
+          className="md:absolute md:top-1/2 md:-translate-y-1/2 md:end-3"
         >
           {didCopy ? t("copied") : t("copyLink")}
         </Button>
