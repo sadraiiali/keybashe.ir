@@ -67,9 +67,9 @@ const Footer: React.VoidFunctionComponent = () => {
             </a>
             <a
               href="https://github.com/lukevella/rallly"
-              className="inline-flex h-8 items-center rounded-full bg-slate-100 pl-2 pr-3 text-sm text-slate-400 transition-colors hover:bg-primary-500 hover:text-white hover:no-underline focus:ring-2 focus:ring-primary-500 focus:ring-offset-1 active:bg-primary-600"
+              className="inline-flex h-8 items-center rounded-full bg-slate-100 text-sm text-slate-400 transition-colors ps-2 pe-3 hover:bg-primary-500 hover:text-white hover:no-underline focus:ring-2 focus:ring-primary-500 focus:ring-offset-1 active:bg-primary-600"
             >
-              <Star className="mr-2 inline-block w-5" />
+              <Star className="inline-block w-5 me-2" />
               <span>{t("starOnGithub")}</span>
             </a>
           </div>
@@ -135,7 +135,7 @@ const Footer: React.VoidFunctionComponent = () => {
         <div className="lg:w-2/6">
           <div className="mb-4 font-medium">{t("language")}</div>
           <LanguageSelect
-            className="mb-4 w-full"
+            className="mb-4	 w-full text-left"
             onChange={(locale) => {
               router.push(router.asPath, router.asPath, { locale });
             }}
@@ -144,7 +144,7 @@ const Footer: React.VoidFunctionComponent = () => {
             href="https://github.com/lukevella/rallly/wiki/Guide-for-translators"
             className="inline-flex items-center rounded-md border px-3 py-2 text-xs text-slate-500"
           >
-            <Translate className="mr-2 h-5 w-5" />
+            <Translate className="h-5 w-5 me-2" />
             {t("volunteerTranslator")} &rarr;
           </a>
         </div>

@@ -19,7 +19,7 @@ const Features: React.VoidFunctionComponent = () => {
           </div>
           <h3 className="heading-sm flex items-center">
             {t("timeSlots")}
-            <span className="ml-2 rounded-full bg-green-500 px-2 py-1 text-sm font-normal text-white">
+            <span className="rounded-full bg-green-500 px-2 py-1 text-sm font-normal text-white ms-2">
               {t("new")}
             </span>
           </h3>
