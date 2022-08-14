@@ -56,7 +56,7 @@ const MobileNavigation: React.VoidFunctionComponent<{
         {user ? null : (
           <button
             onClick={openLoginModal}
-            className="flex w-full cursor-pointer items-center space-x-2 whitespace-nowrap rounded-md px-2 py-1 font-medium text-slate-600 transition-colors hover:bg-gray-200 hover:text-slate-600 hover:no-underline active:bg-gray-300"
+            className="flex w-full cursor-pointer items-center whitespace-nowrap rounded-md px-2 py-1 font-medium text-slate-600 transition-colors space-s-2 hover:bg-gray-200 hover:text-slate-600 hover:no-underline active:bg-gray-300"
           >
             <Login className="h-5 opacity-75" />
             <span className="inline-block">{t("app:login")}</span>
@@ -76,7 +76,7 @@ const MobileNavigation: React.VoidFunctionComponent<{
                     opacity: 0,
                   }}
                   data-testid="user"
-                  className="group inline-flex w-full items-center space-x-2 rounded-lg px-2 py-1 text-left transition-colors hover:bg-slate-500/10 active:bg-slate-500/20"
+                  className="group inline-flex w-full items-center rounded-lg px-2 py-1 text-left transition-colors space-s-2 hover:bg-slate-500/10 active:bg-slate-500/20"
                 >
                   <div className="relative shrink-0">
                     <UserCircle className="w-5 opacity-75 group-hover:text-primary-500 group-hover:opacity-100" />
@@ -131,7 +131,7 @@ const AppMenu: React.VoidFunctionComponent<{ className?: string }> = ({
   return (
     <div className={clsx("space-y-1", className)}>
       <Link href="/new">
-        <a className="flex cursor-pointer items-center space-x-2 whitespace-nowrap rounded-md px-2 py-1 pr-4 font-medium text-slate-600 transition-colors hover:bg-gray-200 hover:text-slate-600 hover:no-underline active:bg-gray-300">
+        <a className="flex cursor-pointer items-center whitespace-nowrap rounded-md px-2 py-1 pr-4 font-medium text-slate-600 transition-colors space-s-2 hover:bg-gray-200 hover:text-slate-600 hover:no-underline active:bg-gray-300">
           <Pencil className="h-5 opacity-75 " />
           <span className="inline-block">{t("app:newPoll")}</span>
         </a>
@@ -139,7 +139,7 @@ const AppMenu: React.VoidFunctionComponent<{ className?: string }> = ({
       <a
         target="_blank"
         href="https://support.rallly.co"
-        className="flex cursor-pointer items-center space-x-2 whitespace-nowrap rounded-md px-2 py-1 pr-4 font-medium text-slate-600 transition-colors hover:bg-gray-200 hover:text-slate-600 hover:no-underline active:bg-gray-300"
+        className="flex cursor-pointer items-center whitespace-nowrap rounded-md px-2 py-1 pr-4 font-medium text-slate-600 transition-colors space-s-2 hover:bg-gray-200 hover:text-slate-600 hover:no-underline active:bg-gray-300"
         rel="noreferrer"
       >
         <Support className="h-5 opacity-75" />
@@ -260,7 +260,7 @@ const StandardLayout: React.VoidFunctionComponent<{
               </div>
               <div className="mb-4">
                 <Link href="/new">
-                  <a className="group mb-1 flex items-center space-x-3 whitespace-nowrap rounded-md px-3 py-1 font-medium text-slate-600 transition-colors hover:bg-slate-500/10 hover:text-slate-600 hover:no-underline active:bg-slate-500/20">
+                  <a className="group mb-1 flex items-center whitespace-nowrap rounded-md px-3 py-1 font-medium text-slate-600 transition-colors space-s-3 hover:bg-slate-500/10 hover:text-slate-600 hover:no-underline active:bg-slate-500/20">
                     <Pencil className="h-5 opacity-75 group-hover:text-primary-500 group-hover:opacity-100" />
                     <span className="grow text-left">{t("app:newPoll")}</span>
                   </a>
@@ -268,7 +268,7 @@ const StandardLayout: React.VoidFunctionComponent<{
                 <a
                   target="_blank"
                   href="https://support.rallly.co"
-                  className="group mb-1 flex items-center space-x-3 whitespace-nowrap rounded-md px-3 py-1 font-medium text-slate-600 transition-colors hover:bg-slate-500/10 hover:text-slate-600 hover:no-underline active:bg-slate-500/20"
+                  className="group mb-1 flex items-center whitespace-nowrap rounded-md px-3 py-1 font-medium text-slate-600 transition-colors space-s-3 hover:bg-slate-500/10 hover:text-slate-600 hover:no-underline active:bg-slate-500/20"
                   rel="noreferrer"
                 >
                   <Support className="h-5 opacity-75 group-hover:text-primary-500 group-hover:opacity-100" />
@@ -277,7 +277,7 @@ const StandardLayout: React.VoidFunctionComponent<{
                 <Popover
                   placement="right-start"
                   trigger={
-                    <button className="group flex w-full items-center space-x-3 whitespace-nowrap rounded-md px-3 py-1 font-medium text-slate-600 transition-colors hover:bg-slate-500/10 hover:text-slate-600 hover:no-underline active:bg-slate-500/20">
+                    <button className="group flex w-full items-center whitespace-nowrap rounded-md px-3 py-1 font-medium text-slate-600 transition-colors space-s-3 hover:bg-slate-500/10 hover:text-slate-600 hover:no-underline active:bg-slate-500/20">
                       <Adjustments className="h-5 opacity-75 group-hover:text-primary-500 group-hover:opacity-100" />
                       <span className="grow text-left">
                         {t("app:preferences")}
@@ -291,7 +291,7 @@ const StandardLayout: React.VoidFunctionComponent<{
                 {user ? null : (
                   <button
                     onClick={openLoginModal}
-                    className="group flex w-full items-center space-x-3 whitespace-nowrap rounded-md px-3 py-1 font-medium text-slate-600 transition-colors hover:bg-slate-500/10 hover:text-slate-600 hover:no-underline active:bg-slate-500/20"
+                    className="group flex w-full items-center whitespace-nowrap rounded-md px-3 py-1 font-medium text-slate-600 transition-colors space-s-3 hover:bg-slate-500/10 hover:text-slate-600 hover:no-underline active:bg-slate-500/20"
                   >
                     <Login className="h-5 opacity-75 group-hover:text-primary-500 group-hover:opacity-100" />
                     <span className="grow text-left">{t("app:login")}</span>
@@ -315,7 +315,7 @@ const StandardLayout: React.VoidFunctionComponent<{
                         }}
                         className="group w-full rounded-lg p-2 px-3 text-left text-inherit transition-colors hover:bg-slate-500/10 active:bg-slate-500/20"
                       >
-                        <div className="flex w-full items-center space-x-3">
+                        <div className="flex w-full items-center space-s-3">
                           <div className="relative">
                             <UserCircle className="h-5 opacity-75 group-hover:text-primary-500 group-hover:opacity-100" />
                           </div>
@@ -340,7 +340,7 @@ const StandardLayout: React.VoidFunctionComponent<{
             <div className="max-w-full pt-12 md:w-[1024px] lg:min-h-[calc(100vh-64px)] lg:pt-0">
               {children}
             </div>
-            <div className="flex flex-col items-center space-y-4 px-6 pt-3 pb-6 text-slate-400 lg:h-16 lg:flex-row lg:space-y-0 lg:space-x-6 lg:py-0 lg:px-8 lg:pb-3">
+            <div className="flex flex-col items-center space-y-4 px-6 pt-3 pb-6 text-slate-400 lg:h-16 lg:flex-row lg:space-y-0 lg:py-0 lg:px-8 lg:pb-3 lg:space-s-6">
               <div>
                 <Link href="https://rallly.co">
                   <a className="text-sm text-slate-400 transition-colors hover:text-primary-500 hover:no-underline">
@@ -349,7 +349,7 @@ const StandardLayout: React.VoidFunctionComponent<{
                 </Link>
               </div>
               <div className="hidden text-slate-300 lg:block">&bull;</div>
-              <div className="flex items-center justify-center space-x-6 md:justify-start">
+              <div className="flex items-center justify-center space-s-6 md:justify-start">
                 <a
                   target="_blank"
                   href="https://support.rallly.co"
@@ -369,7 +369,7 @@ const StandardLayout: React.VoidFunctionComponent<{
                   </a>
                 </Link>
                 <div className="hidden text-slate-300 lg:block">&bull;</div>
-                <div className="flex items-center space-x-6">
+                <div className="flex items-center space-s-6">
                   <a
                     href="https://twitter.com/ralllyco"
                     className="text-sm text-slate-400 transition-colors hover:text-primary-500 hover:no-underline"

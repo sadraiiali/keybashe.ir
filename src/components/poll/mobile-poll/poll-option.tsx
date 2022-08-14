@@ -152,7 +152,7 @@ const SummarizedParticipantList: React.VoidFunctionComponent<{
   participants: Participant[];
 }> = ({ participants }) => {
   return (
-    <div className="flex -space-x-1">
+    <div className="flex -space-s-1">
       {participants
         .slice(0, participants.length <= 8 ? 8 : 7)
         .map((participant, i) => {
@@ -200,7 +200,7 @@ const PollOption: React.VoidFunctionComponent<PollOptionProps> = ({
       }}
     >
       <div className="flex select-none transition duration-75">
-        <div className="flex grow space-x-8">
+        <div className="flex grow space-s-8">
           <div>{children}</div>
           <div className="flex grow items-center justify-end">
             <button

@@ -83,7 +83,7 @@ const PageLayout: React.VoidFunctionComponent<PageLayoutProps> = ({
             </span>
           </div>
         </div>
-        <Menu className="hidden items-center space-x-8 md:flex" />
+        <Menu className="hidden items-center space-s-8 md:flex" />
         {breakpoint === "sm" ? (
           <Popover
             placement="left-start"

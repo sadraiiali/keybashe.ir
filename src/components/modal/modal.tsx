@@ -90,7 +90,7 @@ const Modal: React.VoidFunctionComponent<ModalProps> = ({
                   </div>
                 )}
                 {footer === undefined ? (
-                  <div className="flex h-14 items-center justify-end space-x-3 rounded-br-lg rounded-bl-lg border-t bg-slate-50 px-4">
+                  <div className="flex h-14 items-center justify-end rounded-br-lg rounded-bl-lg border-t bg-slate-50 px-4 space-s-3">
                     {cancelText ? (
                       <Button
                         onClick={() => {

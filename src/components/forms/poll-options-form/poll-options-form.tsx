@@ -143,7 +143,7 @@ const PollOptionsForm: React.VoidFunctionComponent<
     >
       {calendarHelpModal}
       {dateOrTimeRangeModal}
-      <div className="w-full items-center space-y-2 border-b bg-slate-50 py-3 px-4 lg:flex lg:space-y-0 lg:space-x-2">
+      <div className="w-full items-center space-y-2 border-b bg-slate-50 py-3 px-4 lg:flex lg:space-y-0 lg:space-s-2">
         <div className="grow">
           <Controller
             control={control}
@@ -160,7 +160,7 @@ const PollOptionsForm: React.VoidFunctionComponent<
             )}
           />
         </div>
-        <div className="flex space-x-3">
+        <div className="flex space-s-3">
           <div className="segment-button w-full">
             <button
               className={clsx({

@@ -19,7 +19,7 @@ const Footer: React.VoidFunctionComponent = () => {
   const router = useRouter();
   return (
     <div className="mt-16 bg-slate-50/70">
-      <div className="mx-auto max-w-7xl space-y-8 p-8 lg:flex lg:space-x-16 lg:space-y-0">
+      <div className="mx-auto max-w-7xl space-y-8 p-8 lg:flex lg:space-y-0 lg:space-s-16">
         <div className=" lg:w-2/6">
           <Logo className="w-32 text-slate-400" />
           <div className="mb-8 mt-4 text-slate-400">
@@ -52,7 +52,7 @@ const Footer: React.VoidFunctionComponent = () => {
               />
             </div>
           </div>
-          <div className="mb-8 flex items-center space-x-6">
+          <div className="mb-8 flex items-center space-s-6">
             <a
               href="https://twitter.com/ralllyco"
               className="text-sm text-slate-400 transition-colors hover:text-primary-500 hover:no-underline"

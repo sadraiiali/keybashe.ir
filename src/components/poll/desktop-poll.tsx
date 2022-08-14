@@ -119,7 +119,7 @@ const Poll: React.VoidFunctionComponent = () => {
       >
         <div className="flex max-h-[calc(100vh-70px)] flex-col overflow-hidden bg-white">
           {poll.timeZone ? (
-            <div className="flex h-14 shrink-0 items-center justify-end space-x-4 border-b bg-gray-50 px-4">
+            <div className="flex h-14 shrink-0 items-center justify-end border-b bg-gray-50 px-4 space-s-4">
               <div className="flex grow items-center">
                 <div className="mr-2 text-sm font-medium text-slate-500">
                   {t("timeZone")}
@@ -230,7 +230,7 @@ const Poll: React.VoidFunctionComponent = () => {
           {!poll.closed ? (
             <div className="flex h-14 shrink-0 items-center border-t bg-gray-50 px-3">
               {shouldShowNewParticipantForm || editingParticipantId ? (
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center space-s-3">
                   <Button
                     key="submit"
                     form="participant-row-form"
@@ -266,7 +266,7 @@ const Poll: React.VoidFunctionComponent = () => {
                   </div>
                 </div>
               ) : (
-                <div className="flex w-full items-center space-x-3">
+                <div className="flex w-full items-center space-s-3">
                   <Button
                     key="add-participant"
                     onClick={() => {

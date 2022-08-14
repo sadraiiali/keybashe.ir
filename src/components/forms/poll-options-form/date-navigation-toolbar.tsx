@@ -21,7 +21,7 @@ const DateNavigationToolbar: React.VoidFunctionComponent<DateNavigationToolbarPr
           <span className="mr-2 text-sm font-bold text-gray-400">{year}</span>
           <span className="text-lg font-bold text-gray-700">{label}</span>
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-s-2">
           <div className="segment-button">
             <button type="button" onClick={onPrevious}>
               <ChevronLeft className="h-5" />

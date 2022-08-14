@@ -119,7 +119,7 @@ const MobilePoll: React.VoidFunctionComponent = () => {
         })}
       >
         <div className="sticky top-[47px] z-30 flex flex-col space-y-2 border-b bg-gray-50 p-3">
-          <div className="flex space-x-3">
+          <div className="flex space-s-3">
             {!isEditing ? (
               <Listbox
                 value={selectedParticipantId}
@@ -137,7 +137,7 @@ const MobilePoll: React.VoidFunctionComponent = () => {
                   >
                     <div className="min-w-0 grow text-left">
                       {selectedParticipant ? (
-                        <div className="flex items-center space-x-2">
+                        <div className="flex items-center space-s-2">
                           <UserAvatar
                             name={selectedParticipant.name}
                             showName={true}
@@ -168,7 +168,7 @@ const MobilePoll: React.VoidFunctionComponent = () => {
                         value={participant.id}
                         className={styleMenuItem}
                       >
-                        <div className="flex items-center space-x-2">
+                        <div className="flex items-center space-s-2">
                           <UserAvatar
                             name={participant.name}
                             showName={true}
@@ -208,7 +208,7 @@ const MobilePoll: React.VoidFunctionComponent = () => {
                 {t("cancel")}
               </Button>
             ) : selectedParticipant ? (
-              <div className="flex space-x-3">
+              <div className="flex space-s-3">
                 <Button
                   icon={<Pencil />}
                   disabled={

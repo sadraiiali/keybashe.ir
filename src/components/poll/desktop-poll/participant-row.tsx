@@ -64,7 +64,7 @@ export const ParticipantRowView: React.VoidFunctionComponent<{
           color={color}
         />
         {editable ? (
-          <div className="hidden shrink-0 items-center space-x-2 overflow-hidden group-hover:flex">
+          <div className="hidden shrink-0 items-center overflow-hidden space-s-2 group-hover:flex">
             <CompactButton icon={Pencil} onClick={onEdit} />
             <CompactButton icon={Trash} onClick={onDelete} />
           </div>

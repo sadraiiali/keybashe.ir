@@ -119,7 +119,7 @@ const UserAvatar: React.VoidFunctionComponent<UserAvaterProps> = ({
   return (
     <div
       className={clsx(
-        "inline-flex items-center space-x-2 overflow-hidden",
+        "inline-flex items-center overflow-hidden space-s-2",
         className,
       )}
     >

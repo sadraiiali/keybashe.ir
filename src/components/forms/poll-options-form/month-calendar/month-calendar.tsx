@@ -87,7 +87,7 @@ const MonthCalendar: React.VoidFunctionComponent<DateTimePickerProps> = ({
       <div className="border-b p-4 lg:w-[440px] lg:border-r lg:border-b-0">
         <div>
           <div className="flex w-full flex-col">
-            <div className="mb-3 flex items-center justify-center space-x-4">
+            <div className="mb-3 flex items-center justify-center space-s-4">
               <Button
                 icon={<ChevronLeft />}
                 title={t("previousMonth")}
@@ -187,7 +187,7 @@ const MonthCalendar: React.VoidFunctionComponent<DateTimePickerProps> = ({
             hidden: datepicker.selection.length === 0,
           })}
         >
-          <div className="flex items-center space-x-3 p-4">
+          <div className="flex items-center p-4 space-s-3">
             <div className="grow">
               <div className="font-medium">{t("specifyTimes")}</div>
               <div className="text-sm text-slate-400">
@@ -242,7 +242,7 @@ const MonthCalendar: React.VoidFunctionComponent<DateTimePickerProps> = ({
                   return (
                     <div
                       key={dateString}
-                      className="space-y-3 py-4 sm:flex sm:space-y-0 sm:space-x-4"
+                      className="space-y-3 py-4 sm:flex sm:space-y-0 sm:space-s-4"
                     >
                       <div>
                         <DateCard
@@ -258,7 +258,7 @@ const MonthCalendar: React.VoidFunctionComponent<DateTimePickerProps> = ({
                           return (
                             <div
                               key={index}
-                              className="flex items-center space-x-3"
+                              className="flex items-center space-s-3"
                             >
                               <TimePicker
                                 value={startDate}
@@ -314,7 +314,7 @@ const MonthCalendar: React.VoidFunctionComponent<DateTimePickerProps> = ({
                             </div>
                           );
                         })}
-                        <div className="flex items-center space-x-3">
+                        <div className="flex items-center space-s-3">
                           <Button
                             icon={<PlusSm />}
                             onClick={() => {

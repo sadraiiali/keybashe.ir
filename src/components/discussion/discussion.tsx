@@ -114,7 +114,7 @@ const Discussion: React.VoidFunctionComponent = () => {
                   data-testid="comment"
                   className="w-fit rounded-xl border bg-white px-3 py-2 shadow-sm"
                 >
-                  <div className="flex items-center space-x-2">
+                  <div className="flex items-center space-s-2">
                     <UserAvatar
                       name={comment.authorName}
                       showName={true}
@@ -165,7 +165,7 @@ const Discussion: React.VoidFunctionComponent = () => {
           className="input w-full py-2 pl-3 pr-4"
           {...register("content", { validate: requiredString })}
         />
-        <div className="mt-1 flex space-x-3">
+        <div className="mt-1 flex space-s-3">
           <div>
             <Controller
               name="authorName"

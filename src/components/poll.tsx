@@ -132,7 +132,7 @@ const PollPage: NextPage = () => {
         >
           {admin ? (
             <>
-              <div className="mb-4 flex space-x-2 px-4 md:justify-end md:px-0">
+              <div className="mb-4 flex px-4 space-s-2 md:justify-end md:px-0">
                 <NotificationsToggle />
                 <ManagePoll
                   placement={isWideScreen ? "bottom-end" : "bottom-start"}
@@ -185,7 +185,7 @@ const PollPage: NextPage = () => {
             </>
           ) : null}
           {!poll.admin && poll.adminUrlId ? (
-            <div className="mb-4 items-center justify-between rounded-lg px-4 md:flex md:space-x-4 md:border md:p-2 md:pl-4">
+            <div className="mb-4 items-center justify-between rounded-lg px-4 md:flex md:border md:p-2 md:pl-4 md:space-s-4">
               <div className="mb-4 font-medium md:mb-0">
                 {t("pollOwnerNotice", { name: poll.user.name })}
               </div>
@@ -235,18 +235,18 @@ const PollPage: NextPage = () => {
                   <div className="mb-2 text-sm text-slate-500">
                     {t("possibleAnswers")}
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <span className="inline-flex items-center space-x-1">
+                  <div className="flex items-center space-s-3">
+                    <span className="inline-flex items-center space-s-1">
                       <VoteIcon type="yes" />
                       <span className="text-xs text-slate-500">{t("yes")}</span>
                     </span>
-                    <span className="inline-flex items-center space-x-1">
+                    <span className="inline-flex items-center space-s-1">
                       <VoteIcon type="ifNeedBe" />
                       <span className="text-xs text-slate-500">
                         {t("ifNeedBe")}
                       </span>
                     </span>
-                    <span className="inline-flex items-center space-x-1">
+                    <span className="inline-flex items-center space-s-1">
                       <VoteIcon type="no" />
                       <span className="text-xs text-slate-500">{t("no")}</span>
                     </span>

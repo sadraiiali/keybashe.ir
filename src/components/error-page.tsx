@@ -34,7 +34,7 @@ const ErrorPage: React.VoidFunctionComponent<ComponentProps> = ({
             {title}
           </div>
           <p>{description}</p>
-          <div className="flex justify-center space-x-3">
+          <div className="flex justify-center space-s-3">
             <Link href="/" passHref={true}>
               <a className="btn-default">{t("goToHome")}</a>
             </Link>

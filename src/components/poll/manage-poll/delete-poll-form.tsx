@@ -32,7 +32,7 @@ export const DeletePollForm: React.VoidFunctionComponent<{
   const { t } = useTranslation("app");
 
   return (
-    <div className="flex max-w-lg space-x-6 p-5">
+    <div className="flex max-w-lg p-5 space-s-6">
       <div className="">
         <div className="rounded-full bg-rose-100 p-3">
           <Exclamation className="w-8 text-rose-500" />
@@ -71,7 +71,7 @@ export const DeletePollForm: React.VoidFunctionComponent<{
             readOnly={formState.isSubmitting}
           />
         </div>
-        <div className="flex space-x-3">
+        <div className="flex space-s-3">
           <Button onClick={onCancel}>{t("cancel")}</Button>
           <Button
             disabled={!canDelete}

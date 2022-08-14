@@ -13,7 +13,7 @@ export const UnverifiedPollNotice = () => {
 
   return (
     <div>
-      <div className="md:flex md:justify-between md:space-x-4">
+      <div className="md:flex md:justify-between md:space-s-4">
         <div className="mb-4 md:mb-0 md:w-2/3">
           <Trans
             t={t}

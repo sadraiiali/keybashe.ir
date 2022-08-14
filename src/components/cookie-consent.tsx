@@ -37,9 +37,9 @@ const CookieConsentPopover: React.VoidFunctionComponent = () => {
             Your privacy is important to us. We only use cookies to improve the
             browsing experience on this website.
           </div>
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center space-s-6">
             <Link href="/privacy-policy">
-              <a className="hover:text-primary-500 text-slate-400">
+              <a className="text-slate-400 hover:text-primary-500">
                 Privacy Policy
               </a>
             </Link>
@@ -48,7 +48,7 @@ const CookieConsentPopover: React.VoidFunctionComponent = () => {
                 Cookies.set("rallly_cookie_consent", "1", { expires: 365 });
                 setVisible(false);
               }}
-              className="bg-primary-500 hover:bg-primary-500/90 focus:ring-primary-200 active:bg-primary-600/90 grow rounded-md px-5 py-1  font-semibold text-white shadow-sm transition-all focus:ring-2"
+              className="grow rounded-md bg-primary-500 px-5 py-1 font-semibold text-white shadow-sm  transition-all hover:bg-primary-500/90 focus:ring-2 focus:ring-primary-200 active:bg-primary-600/90"
             >
               OK
             </button>

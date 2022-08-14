@@ -55,7 +55,7 @@ const LoginForm: React.VoidFunctionComponent = () => {
                 </div>
               ) : null}
             </div>
-            <div className="flex space-x-3">
+            <div className="flex space-s-3">
               <Button
                 htmlType="submit"
                 loading={formState.isSubmitting}

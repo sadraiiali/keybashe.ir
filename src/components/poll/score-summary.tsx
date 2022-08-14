@@ -60,7 +60,7 @@ export const ScoreSummary: React.VoidFunctionComponent<PopularityScoreProps> =
     return (
       <div
         data-testid="popularity-score"
-        className="relative inline-flex items-center space-x-2"
+        className="relative inline-flex items-center space-s-2"
       >
         <Score icon={User} score={yesScore} />
       </div>

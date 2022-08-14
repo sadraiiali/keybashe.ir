@@ -162,7 +162,7 @@ const ParticipantRowForm: React.ForwardRefRenderFunction<
         }}
       />
       {maxScrollPosition > 0 ? (
-        <div className="flex items-center space-x-2 px-2 transition-all">
+        <div className="flex items-center px-2 transition-all space-s-2">
           <Button
             disabled={scrollPosition === 0}
             className="text-xs"
