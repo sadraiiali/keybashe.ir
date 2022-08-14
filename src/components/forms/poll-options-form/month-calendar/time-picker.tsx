@@ -79,9 +79,9 @@ const TimePicker: React.VoidFunctionComponent<TimePickerProps> = ({
       {(open) => (
         <>
           <div ref={reference} className={clsx("relative", className)}>
-            <Listbox.Button className="btn-default text-left">
+            <Listbox.Button className="btn-default text-start">
               <span className="grow truncate">{dayjs(value).format("LT")}</span>
-              <span className="pointer-events-none ml-2 flex">
+              <span className="pointer-events-none flex ms-2">
                 <ChevronDown className="h-5 w-5" />
               </span>
             </Listbox.Button>

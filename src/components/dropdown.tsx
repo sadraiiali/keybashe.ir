@@ -128,7 +128,7 @@ export const DropdownItem: React.VoidFunctionComponent<{
         >
           {Icon && (
             <Icon
-              className={clsx("mr-2 h-5 w-5", {
+              className={clsx("h-5 w-5 me-2", {
                 "text-white": active,
                 "text-primary-500": !active,
               })}

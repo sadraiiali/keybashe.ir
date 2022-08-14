@@ -171,7 +171,7 @@ const PollOptionsForm: React.VoidFunctionComponent<
               }}
               type="button"
             >
-              <Calendar className="mr-2 h-5 w-5" /> {t("monthView")}
+              <Calendar className="h-5 w-5 me-2" /> {t("monthView")}
             </button>
             <button
               className={clsx({
@@ -182,7 +182,7 @@ const PollOptionsForm: React.VoidFunctionComponent<
                 setValue("view", "week");
               }}
             >
-              <Table className="mr-2 h-5 w-5" /> {t("weekView")}
+              <Table className="h-5 w-5 me-2" /> {t("weekView")}
             </button>
           </div>
         </div>

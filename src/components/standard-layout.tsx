@@ -393,9 +393,9 @@ const StandardLayout: React.VoidFunctionComponent<{
               <div className="hidden text-slate-300 lg:block">&bull;</div>
               <a
                 href="https://www.paypal.com/donate/?hosted_button_id=7QXP2CUBLY88E"
-                className="inline-flex h-8 items-center rounded-full bg-slate-100 pl-2 pr-3 text-sm text-slate-400 transition-colors hover:bg-primary-500 hover:text-white hover:no-underline focus:ring-2 focus:ring-primary-500 focus:ring-offset-1 active:bg-primary-600"
+                className="inline-flex h-8 items-center rounded-full bg-slate-100 text-sm text-slate-400 transition-colors ps-2 pe-3 hover:bg-primary-500 hover:text-white hover:no-underline focus:ring-2 focus:ring-primary-500 focus:ring-offset-1 active:bg-primary-600"
               >
-                <Cash className="mr-1 inline-block w-5" />
+                <Cash className="inline-block w-5 me-1" />
                 <span>{t("app:donate")}</span>
               </a>
             </div>
