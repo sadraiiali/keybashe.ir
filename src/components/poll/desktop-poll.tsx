@@ -278,7 +278,7 @@ const Poll: React.VoidFunctionComponent = () => {
                   </Button>
                   {userAlreadyVoted ? (
                     <div className="flex items-center text-sm text-gray-400">
-                      <Check className="mr-1 h-5" />
+                      <Check className="h-5 me-1" />
                       <div>{t("alreadyVoted")}</div>
                     </div>
                   ) : null}

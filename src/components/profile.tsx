@@ -67,7 +67,7 @@ export const Profile: React.VoidFunctionComponent = () => {
             <div className="text-lg text-slate-700">{t("yourPolls")}</div>
             <Link href="/new">
               <a className="btn-default">
-                <Pencil className="mr-1 h-5" />
+                <Pencil className="h-5 me-1" />
                 {t("newPoll")}
               </a>
             </Link>
