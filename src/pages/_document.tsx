@@ -3,7 +3,6 @@ import React, { useState } from "react";
 
 export default function MainDocument(props: any) {
   const [locale, _] = useState(props.locale);
-  console.log(props);
   return (
     <Html dir={locale === "fa" ? "rtl" : "ltr"} lang={locale}>
       <Head>
@@ -29,6 +28,11 @@ export default function MainDocument(props: any) {
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Mono&display=optional"
           rel="stylesheet"
+        />
+        <link
+          href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+          rel="stylesheet"
+          type="text/css"
         />
         <meta name="theme-color" content="#f9fafb" />
       </Head>

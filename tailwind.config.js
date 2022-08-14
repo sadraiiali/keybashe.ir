@@ -35,7 +35,7 @@ module.exports = {
         xs: "375px",
       },
       fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        sans: ["Vazirmatn", "Inter", ...defaultTheme.fontFamily.sans],
         mono: ["Noto Sans Mono", ...defaultTheme.fontFamily.mono],
       },
       transitionTimingFunction: {
@@ -44,5 +44,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/typography")],
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
+    require("tailwindcss-rtl"),
+  ],
 };
