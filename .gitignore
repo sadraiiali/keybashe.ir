@@ -43,3 +43,7 @@ yarn-error.log*
 
 # ts
 tsconfig.tsbuildinfo
+
+# IDE
+.idea
+.vscode
