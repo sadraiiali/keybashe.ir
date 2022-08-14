@@ -9,7 +9,7 @@ export const LanguageSelect: React.VoidFunctionComponent<{
   const { t, i18n } = useTranslation("common");
   return (
     <select
-      className={clsx("input", className)}
+      className={clsx("input text-left", className)}
       defaultValue={i18n.language}
       onChange={(e) => {
         Cookies.set("NEXT_LOCALE", e.target.value, {

@@ -103,7 +103,7 @@
   }
 
   .segment-button button {
-    @apply inline-flex grow items-center justify-center border-t border-b border-r bg-white px-4 font-medium transition-colors first:rounded-l first:border-l last:rounded-r hover:bg-slate-50 focus:z-10 focus-visible:ring-2 focus-visible:ring-offset-0 active:bg-slate-100;
+    @apply inline-flex grow items-center justify-center border-t border-b border-e bg-white px-4 font-medium transition-colors first:rounded-s first:border-s last:rounded-e hover:bg-slate-50 focus:z-10 focus-visible:ring-2 focus-visible:ring-offset-0 active:bg-slate-100;
   }
 
   .segment-button .segment-button-active {

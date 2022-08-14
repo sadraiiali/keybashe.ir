@@ -118,7 +118,7 @@ export const DropdownItem: React.VoidFunctionComponent<{
           href={href}
           onClick={onClick}
           className={clsx(
-            "group flex w-full items-center rounded py-2 pl-2 pr-4",
+            "group flex w-full items-center rounded py-2 ps-2 pe-4",
             {
               "bg-primary-500 text-white": active,
               "text-gray-700": !active,
