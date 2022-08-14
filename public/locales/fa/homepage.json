@@ -1,7 +1,7 @@
 {
   "3Ls": "بعله",
-  "adFree": "Ad-free",
-  "adFreeDescription": "You can give your ad-blocker a rest — You won't need it here.",
+  "adFree": "بدون تبلیغ",
+  "adFreeDescription": "می\u200Cتوانید به مسدودکننده تبلیغات خود استراحت دهید - در اینجا به آن نیاز نخواهید داشت.",
   "comments": "Comments",
   "commentsDescription": "Participants can comment on your poll and the comments will be visible to everyone.",
   "features": "Features",
@@ -18,7 +18,7 @@
   "mobileFriendlyDescription": "Works great on mobile devices so participants can respond to polls wherever they may be.",
   "new": "New",
   "noLoginRequired": "بدون نیاز به اکانت",
-  "noLoginRequiredDescription": "You don't need to login to create or participate in a poll",
+  "noLoginRequiredDescription": "شما برای ایجاد یا شرکت در یک نظرسنجی نیازی به ورود به سیستم ندارید",
   "notifications": "Notifications",
   "notificationsDescription": "Keep track of who's responded. Get notified when participants vote or comment on your poll.",
   "openSource": "متن‌باز",
@@ -29,8 +29,8 @@
   "perfect": "Perfect!",
   "principles": "اصول",
   "principlesSubheading": "ما مثل بقیه نیستیم!",
-  "selfHostable": "Self-hostable",
-  "selfHostableDescription": "Run it on your own server to take full control of your data",
+  "selfHostable": "خود میزبان",
+  "selfHostableDescription": "این برنامه را روی سرور خود اجرا کنید تا کنترل کامل داده های خود را در دست بگیرید",
   "timeSlots": "Time slots",
   "timeSlotsDescription": "Set individual start and end times for each option in your poll. Times can be automatically adjusted to each participant's timezone or they can be set to ignore timezones completely."
 }
