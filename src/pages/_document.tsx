@@ -1,9 +1,11 @@
-import { Head, Html, Main, NextScript } from "next/document";
-import React from "react";
+import Document, { Head, Html, Main, NextScript } from "next/document";
+import React, { useState } from "react";
 
-export default function Document() {
+export default function MainDocument(props: any) {
+  const [locale, _] = useState(props.locale);
+  console.log(props);
   return (
-    <Html>
+    <Html dir={locale === "fa" ? "rtl" : "ltr"} lang={locale}>
       <Head>
         <link
           rel="apple-touch-icon"
@@ -38,3 +40,8 @@ export default function Document() {
     </Html>
   );
 }
+
+MainDocument.getInitialProps = async (ctx: any) => {
+  const initialProps = await Document.getInitialProps(ctx);
+  return { ...initialProps, locale: ctx?.locale || "en" };
+};
