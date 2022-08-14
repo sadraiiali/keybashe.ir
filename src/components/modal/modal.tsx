@@ -69,7 +69,7 @@ const Modal: React.VoidFunctionComponent<ModalProps> = ({
               <div className="mx-4 max-w-full overflow-hidden rounded-xl bg-white shadow-xl xs:rounded-xl">
                 {showClose ? (
                   <button
-                    className="absolute right-5 top-1 z-10 rounded-lg p-2 text-slate-400 transition-colors hover:bg-slate-500/10 hover:text-slate-500 active:bg-slate-500/20"
+                    className="absolute top-1 z-10 rounded-lg p-2 text-slate-400 transition-colors end-5 hover:bg-slate-500/10 hover:text-slate-500 active:bg-slate-500/20"
                     onClick={onCancel}
                   >
                     <X className="h-4" />
@@ -78,12 +78,12 @@ const Modal: React.VoidFunctionComponent<ModalProps> = ({
                 {content ?? (
                   <div className="max-w-md p-6">
                     {title ? (
-                      <Dialog.Title className="mb-2 font-medium">
+                      <Dialog.Title className="mb-2 font-medium text-start">
                         {title}
                       </Dialog.Title>
                     ) : null}
                     {description ? (
-                      <Dialog.Description className="m-0">
+                      <Dialog.Description className="m-0 text-start">
                         {description}
                       </Dialog.Description>
                     ) : null}

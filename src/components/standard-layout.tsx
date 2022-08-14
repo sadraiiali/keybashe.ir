@@ -183,8 +183,8 @@ const UserDropdown: React.VoidFunctionComponent<
                       </div>
                     </div>
                   </div>
-                  <p>{t("app:guestSessionNotice")}</p>
-                  <div>
+                  <p className="text-start">{t("app:guestSessionNotice")}</p>
+                  <div className="text-start">
                     <a
                       href="https://support.rallly.co/guest-sessions"
                       target="_blank"

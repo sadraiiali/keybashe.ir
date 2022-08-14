@@ -26,7 +26,7 @@ const LoginForm: React.VoidFunctionComponent = () => {
         <Magic className="h-24 text-slate-300" />
       </div>
       <div className="max-w-sm p-6">
-        <div className="mb-2 text-xl font-semibold">
+        <div className="mb-2 text-xl font-semibold text-start">
           {t("loginViaMagicLink")}
         </div>
         {!formState.isSubmitSuccessful ? (
@@ -36,7 +36,7 @@ const LoginForm: React.VoidFunctionComponent = () => {
               await login.mutateAsync({ email, path: router.asPath });
             })}
           >
-            <div className="mb-2 text-slate-500">
+            <div className="mb-2 text-slate-500 text-start">
               {t("loginViaMagicLinkDescription")}
             </div>
             <div className="mb-4">
