@@ -258,7 +258,7 @@ const StandardLayout: React.VoidFunctionComponent<{
           {loginModal}
           <MobileNavigation openLoginModal={openLoginModal} />
           <div className="hidden grow px-4 pt-6 pb-5 lg:block">
-            <div className="sticky top-6 float-right w-48 items-start">
+            <div className="sticky top-6 w-48 items-start float-end">
               <div className="mb-8 px-3">
                 <HomeLink />
               </div>
