@@ -54,7 +54,7 @@ const Popover: React.VoidFunctionComponent<PopoverProps> = ({
                 )}
                 style={{
                   position: strategy,
-                  left: x ?? "",
+                  left: x ? x - 510 : "",
                   top: y ?? "",
                 }}
                 ref={floating}
