@@ -18,7 +18,7 @@ const DateNavigationToolbar: React.VoidFunctionComponent<DateNavigationToolbarPr
     return (
       <div className="flex h-14 w-full shrink-0 items-center border-b px-4">
         <div className="grow">
-          <span className="mr-2 text-sm font-bold text-gray-400">{year}</span>
+          <span className="text-sm font-bold text-gray-400 me-2">{year}</span>
           <span className="text-lg font-bold text-gray-700">{label}</span>
         </div>
         <div className="flex items-center space-s-2">

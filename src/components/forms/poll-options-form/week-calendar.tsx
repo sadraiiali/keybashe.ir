@@ -133,7 +133,7 @@ const WeekCalendar: React.VoidFunctionComponent<DateTimePickerProps> = ({
                   },
                 )}
               >
-                <span className="mr-1 font-normal opacity-50">
+                <span className="font-normal opacity-50 me-1">
                   {dayjs(date).format("ddd")}
                 </span>
                 <span className="font-medium">{dayjs(date).format("DD")}</span>
