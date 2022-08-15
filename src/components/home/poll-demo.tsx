@@ -7,24 +7,24 @@ import { ScoreSummary } from "../poll/score-summary";
 
 const sidebarWidth = 180;
 const columnWidth = 100;
-const participants = [
+const participantsFn = (t: any) => [
   {
-    name: "Reed",
+    name: t("homepage:Reed"),
     color: "bg-sky-400",
     votes: [0, 2],
   },
   {
-    name: "Susan",
+    name: t("homepage:Susan"),
     color: "bg-blue-400",
     votes: [0, 1, 2],
   },
   {
-    name: "Johnny",
+    name: t("homepage:Johnny"),
     color: "bg-primary-400",
     votes: [2, 3],
   },
   {
-    name: "Ben",
+    name: t("homepage:Ben"),
     color: "bg-purple-400",
     votes: [0, 1, 2, 3],
   },
@@ -34,6 +34,7 @@ const options = ["2022-12-14", "2022-12-15", "2022-12-16", "2022-12-17"];
 
 const PollDemo: React.VoidFunctionComponent = () => {
   const { t } = useTranslation("homepage");
+  const participants = participantsFn(t);
 
   const { dayjs } = useDayjs();
   return (
