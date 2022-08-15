@@ -32,8 +32,9 @@ import { useSession } from "./session";
 const HomeLink = () => {
   return (
     <Link href="/">
-      <a>
-        <Logo className="inline-block w-28 text-primary-500 transition-colors active:text-primary-600 lg:w-32" />
+      <a className="text-2xl font-bold">
+        کی باشه؟!
+        {/*<Logo className="inline-block w-28 text-primary-500 transition-colors active:text-primary-600 lg:w-32" />*/}
       </a>
     </Link>
   );
