@@ -72,13 +72,14 @@ const PageLayout: React.VoidFunctionComponent<PageLayoutProps> = ({
     <div className="bg-pattern min-h-full overflow-x-hidden">
       <div className="mx-auto flex max-w-7xl items-center py-8 px-8">
         <div className="grow">
-          <div className="relative inline-block">
+          <div className="relative inline-block flex flex-col">
             <Link href="/">
-              <a>
-                <Logo className="w-40 text-primary-500" alt="Rallly" />
+              <a className="text-3xl font-bold text-primary-500">
+                کی باشه؟!
+                {/*<Logo className="w-40 text-primary-500" alt="Rallly" />*/}
               </a>
             </Link>
-            <span className="absolute -bottom-6 right-0 text-sm text-slate-400 transition-colors">
+            <span className="relative text-sm text-slate-400 transition-colors">
               <Trans t={t} i18nKey="3Ls" components={{ e: <em /> }} />
             </span>
           </div>
