@@ -56,7 +56,7 @@ const Hero: React.VoidFunctionComponent = () => {
                 className="absolute z-20 rounded-full bg-primary-500 py-1 px-3 text-sm text-slate-100"
                 initial={{
                   opacity: 0,
-                  right: 190,
+                  right: 454,
                   top: -65,
                   translateY: 50,
                 }}
